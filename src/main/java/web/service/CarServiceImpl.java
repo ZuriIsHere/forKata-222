@@ -11,11 +11,11 @@ import java.util.List;
 public class CarServiceImpl implements CarService {
 
     private List<Car> cars = Arrays.asList(
-            new Car("Toyota", "Jetta", 1865),
-            new Car("Infinity", "Sonata", 2020),
-            new Car("Ferrari", "Nexia", 1995),
-            new Car("IDK", "Hwanson", 1204),
-            new Car("Daewo", "Sport", 2035)
+            new Car("Lada", "Granta", 2008),
+            new Car("Lada", "Priora", 1999),
+            new Car("Lamborghini", "Aventador", 2025),
+            new Car("Kia", "Rio", 2013),
+            new Car("Dodge", "Challenger", 2012)
     );
 
     @Override
